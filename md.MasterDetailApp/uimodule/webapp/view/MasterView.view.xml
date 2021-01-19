@@ -1,0 +1,18 @@
+ <mvc:View controllerName="md.MasterDetailApp.controller.MasterView"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+  <App id="MasterView" >
+    <pages>
+      <Page title="Master">
+        <content>
+        <List itemPress="onSelect" items="{/Employees}">
+        <items>
+        <ObjectListItem title="{name}" intro="{id}" number="{salary}" type="Navigation"></ObjectListItem>
+        </items>
+        </List>
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>

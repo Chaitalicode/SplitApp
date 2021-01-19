@@ -1,0 +1,16 @@
+ <mvc:View controllerName="md.MasterDetailApp.controller.DetailView"
+  displayBlock="true"
+  xmlns="sap.m"
+  xmlns:mvc="sap.ui.core.mvc">
+  <App id="DetailView" >
+    <pages>
+      <Page title="Detail">
+        <content>
+        <Text text="{name}"></Text>
+        
+        <Text id="idText" text="{NModel>/color}"></Text>
+        </content>
+      </Page>
+    </pages>
+  </App>
+</mvc:View>
